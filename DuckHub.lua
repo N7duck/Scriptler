@@ -1,15 +1,15 @@
 _G.KeyPassed = false
 -- [[ Duck Hub - Local Time-Limited Key System (Guaranteed Fixed) ]] --
 
-local CorrectKey = "Duck2026"       
+local CorrectKey = "Duck202631"       
 
 -- 🌍 KANKA: Türkiye saatiyle 16:03'te bitmesi için, dünya saatini (UTC) 13:03 yaptık!
 local ExpirationDate = {
     year = 2026,
     month = 7,
-    day = 13,
-    hour = 13, -- TSİ 16:03'e denk gelen UTC saati
-    min = 3    
+    day = 12,
+    hour = 23, -- TSİ 16:03'e denk gelen UTC saati
+    min = 00    
 }
 
 local KeyLink = "https://discord.gg/5uYJqJJDBj" 
